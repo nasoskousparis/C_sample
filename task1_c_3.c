@@ -20,7 +20,7 @@ int main(void)
     for (i = 0; i < mytext.words; i++)
     {
         printf("%s\n", mytext.mt[i]);
-        free(mytext.mt[i]); //??
+        free(mytext.mt[i]); 
     }
     free(mytext.mt);
     return 0;
